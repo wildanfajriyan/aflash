@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "381917878830",
+    "project_id": "amikflash-f8573",
+    "storage_bucket": "amikflash-f8573.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381917878830:android:1505848be4e8e7f924ddbf",
+        "android_client_info": {
+          "package_name": "com.company.amikflash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "381917878830-706smt2i97i9drhr01qqtg3vv9uulv8e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgkMKtlyok6EdbY5_uXKHPs-kqxW516_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "381917878830-706smt2i97i9drhr01qqtg3vv9uulv8e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
