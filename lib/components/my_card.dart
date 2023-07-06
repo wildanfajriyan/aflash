@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:amikflash/screen/home_page.dart';
 
 class MyCard extends StatelessWidget {
   final String title;
@@ -10,7 +11,9 @@ class MyCard extends StatelessWidget {
     return Card(
       margin: EdgeInsets.all(10),
       child: InkWell(
-        onTap: () {},
+        onTap: () {
+          Navigator.push(context, MaterialPageRoute(builder: (context) => HomePage(mataKuliah: title,)));
+        },
         child: Center(
             child: Column(
           mainAxisSize: MainAxisSize.min,

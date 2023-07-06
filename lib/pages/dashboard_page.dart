@@ -29,7 +29,6 @@ class _DashboardState extends State<Dashboard> {
     super.initState();
     _pages = <Widget>[
       MyCards(),
-      FavoritePage(),
       ProfilePage(
         user: widget.user,
       )
@@ -53,10 +52,7 @@ class _DashboardState extends State<Dashboard> {
             icon: Icon(Icons.home, color: Color.fromARGB(255, 73, 73, 211)),
             label: 'Home',
           ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.favorite, color: Color.fromARGB(255, 73, 73, 211)),
-            label: 'Favorite',
-          ),
+         
           BottomNavigationBarItem(
             icon: Icon(Icons.person, color: Color.fromARGB(255, 73, 73, 211)),
             label: 'Profile',

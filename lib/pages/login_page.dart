@@ -16,7 +16,7 @@ class LoginPage extends StatelessWidget {
     return Scaffold(
         backgroundColor: Colors.grey[100],
         body: SafeArea(
-            child: Center(
+            child: Expanded(child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -133,7 +133,7 @@ class LoginPage extends StatelessWidget {
               //     ),
               //   ],
               // )
-            ],
+            ], ) 
           ),
         )));
   }
